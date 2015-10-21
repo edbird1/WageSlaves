@@ -1,0 +1,36 @@
+html {
+ font-family: sans-serif;
+}
+
+table {
+    text-shadow: 1px 1px 2px grey;
+    text-align: center;
+    width: 100%;
+    }
+#home, #about, #members {
+    border-right: solid;
+    border-width: 2px;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.info {
+    text-align: center;
+    font-size: 20px;
+}
