@@ -5,28 +5,35 @@ html {
 }
 
 #nav {
+    background-color: #3b3b3b;
     text-align: center;
-    width: 100%;
+    width: 90%;
+    margin: auto
 }
 
-.nav,
+.nav a:link,
 #table-head {
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 2px gray;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #home,
-#about,
-#members {
+#about {
     border-right: solid;
     border-width: 2px;
+}
+
+#home,
+#about, #members {
+    width: 30%;
 }
 
 a:link,
 a:visited {
     color: White;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover,
@@ -67,8 +74,9 @@ h2 {
 .minecraft,
 .line,
 .steam {
+    color: white;
     text-align: center;
-    background-color: lightgray;
+    background-color: #3b3b3b;
     border: 2px solid #000000
 }
 
@@ -82,14 +90,19 @@ h2 {
 #Justin,
 #Greg,
 #Chris,
-#MK {
-    border: solid;
-    border-width: 2px;
+#MK,
+#Face,
+#Clint,
+#Devyn {
+    border: 2px solid #3b3b3b;
     text-align: center;
-    border-color: blue;
 }
 
 #members-td {
-    border: 2px solid #ffffff;
+    border: 2px solid #3b3b3b;
+    text-align: center;
+}
+
+p {
     text-align: center;
 }
