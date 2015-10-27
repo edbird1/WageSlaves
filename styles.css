@@ -25,7 +25,8 @@ html {
 }
 
 #home,
-#about, #members {
+#about,
+#members {
     width: 30%;
 }
 
@@ -103,6 +104,21 @@ h2 {
     text-align: center;
 }
 
-p {
+p,
+h3 {
     text-align: center;
+}
+
+#news,
+#join {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    background-color: #3b3b3b;
+}
+
+#news tr {
+    border: 2px solid #3b3b3b;
 }
